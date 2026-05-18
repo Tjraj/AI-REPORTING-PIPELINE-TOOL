@@ -1,0 +1,10 @@
+streamlit
+pandas
+plotly
+requests
+groq
+python-dotenv
+fpdf2
+schedule
+yfinance
+openpyxl
