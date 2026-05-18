@@ -1,4 +1,4 @@
-import json
+content = """import json
 import os
 import time
 import requests
@@ -65,3 +65,8 @@ def generate_insights(source_type, summary):
                 continue
             return "Error: " + str(e)
     return "Failed after 3 attempts."
+"""
+
+with open("insights.py", "w") as f:
+    f.write(content)
+print("Done")
